@@ -1,0 +1,10 @@
+body{
+background-image: url(../images/art.jpg);
+background-size: 100%;
+color: #ffffff;
+}
+h1{
+  font-family: Gill Sans MT;
+  font-size: 70px;
+  text-align: center;
+}
