@@ -6,7 +6,7 @@
 
 .main{
 width: 100%;
-background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/mbuku-resources/images/1.jpg);
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/1.jpg);
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -61,4 +61,22 @@ font-weight: bold;
 transition: 0.4s ease-in-out;
 }
 ul li a:hover{
-color:orange
+color:orange;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: orange;
+    border-right: none;
+    font-size: 17px;
+    padding: 10px;
+}
