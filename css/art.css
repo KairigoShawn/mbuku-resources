@@ -1,14 +1,24 @@
-body{
-background-image: url(../images/art.jpg);
-background-size: 100%;
-color: #ffffff;
+body {
+  background-image: url(../images/art.jpg);
+  background-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-family: Gill Sans MT;
 }
-h1{
+h1 {
   font-family: Gill Sans MT;
   font-size: 70px;
   text-align: center;
 }
-
-#art{
+#art-title {
   color: #000000;
+}
+.col {
+  color: #000000;
+}
+.container {
+  margin-bottom: 35px;
+}
+
+.card-body {
 }
