@@ -17,7 +17,9 @@ h1 {
   color: #000000;
 }
 .container {
-  margin-bottom: 35px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .card:hover{
   transform: translateY() ;
