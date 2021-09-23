@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+  </head>
+  <style>
+      body{
+       background-color: #D3D3D3
+
+      }
+      .alvo{
+        
+          border: 3px solid black;
+          background-color: whitesmoke;
+      }
+      #headerContent {
+    overflow: hidden;
+    position: relative;
+
+  }
+
+video {
+    position: inherit;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.preview{
+
+  background-color: whitesmoke;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  </style>
+  <body>
+    <div class="row">
+      <div class="column">
+        <div id="headerContent">
+          <div class="preview">
+          <p> PREVIEW:Black Clover </p>
+          </div>
+          <video poster="http://eyday.net/Titas%20Communications%20/Assets/Bakgrund.png" autoplay="true" loop >
+          <source src="mangavideo/black_clover_opening_10_hd_h264_33629.mp4" type="video/mp4">
+
+          </video>
+          </div>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <div class="alvo">
+          <h1>Manga Chapters</h1>
+          <ol>
+          <li><p>Black Clover<a href="mangapdf/Reincarnat.pdf">Chapter 1</a>.</p></li>
+          <li><p>Black Clover<a href="mangapdf/Tent.pdf">Chapter 2</a>.</p></li>
+          <li><p>Black Clover<a href="mangapdf/Tens.pdf">Chapter3</a>.</p></li>
+          </ol>
+          </div>
+
+      </div>
+    </div>
+  </body>
+</html>
