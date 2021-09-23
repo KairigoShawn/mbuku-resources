@@ -1,4 +1,4 @@
-*{
+{
     margin: 0;
     padding: o;
 }
@@ -8,7 +8,7 @@
 body{
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/images/1.jpg);
     background-position: center;
-    
+
 }
 .heading{
     text-align: center;
@@ -16,7 +16,7 @@ body{
     padding:1rem;
     color:#666;
   }
-  
+
   .heading span{
     color:var(--red);
   }
@@ -79,7 +79,7 @@ transition: 0.4s ease-in-out;
 ul li a:hover{
 color:orange;
 
-} 
+}
 .search{
     width: 330px;
     float: left;
@@ -124,23 +124,23 @@ color:orange;
     text-align: center;
     text-decoration: none;
     margin-right: 30px;
-    
-    
-    
+
+
+
 }
 .main ul li:hover .sub-men-1{
     display: block;
     position:fixed;
     text-align: left;
-  
 
-    
+
+
 }
 .main ul li:hover .sub-men-1 ul {
     display: block;
     margin: 10px;
     text-align: center;
-    
+
 
 }
 .main ul li:hover .sub-men-1 ul li {
@@ -170,30 +170,30 @@ color:orange;
     background-position: center;
     background-color: transparent;
   }
-  
+
   .home .content{
     flex:1 1 40rem;
     padding-top: 40px;
     text-align: center;
   }
-  
+
   .home .image{
     flex:1 1 40rem;
   }
-  
+
   .home .image img{
     width:100%;
     padding:1rem;
     animation:float 3s linear infinite;
   }
-  
-  
-  
+
+
+
   .home .content h3{
     font-size: 5rem;
     color:orange
   }
-  
+
   .home .content p{
     font-size: 1.7rem;
     color:pink;
@@ -206,7 +206,7 @@ color:orange;
     flex-wrap: wrap;
     gap:1.5rem;
   }
-  
+
   .speciality .box-container .box{
     flex:1 1 30rem;
     position: relative;
@@ -216,7 +216,7 @@ color:orange;
     cursor: pointer;
     border-radius: .5rem;
   }
-  
+
   .speciality .box-container .box .image{
     height:100%;
     width:100%;
@@ -224,32 +224,32 @@ color:orange;
     position: absolute;
     top:-100%; left:0;
   }
-  
+
   .speciality .box-container .box .content{
     text-align: center;
     background:orange;
     padding:2rem;
   }
-  
+
   .speciality .box-container .box .content img{
     margin:1.5rem 0;
   }
-  
+
   .speciality .box-container .box .content h3{
     font-size: 2.5rem;
     color:#333;
   }
-  
+
   .speciality .box-container .box .content p{
     font-size: 1.6rem;
     color:#666;
     padding:1rem 0;
   }
-  
+
   .speciality .box-container .box:hover .image{
     top:0;
   }
-  
+
   .speciality .box-container .box:hover.content {
     transform: translatex(100%);
   }
@@ -257,7 +257,7 @@ color:orange;
   .log1{
     width: 350px;
     height: 120px;
-    
+
   }
 
 span{
@@ -318,7 +318,7 @@ span{
   top: var(--spacer);
   bottom: var(--spacer);
   left: var(--spacer);
-  right: var(--spacer);  
+  right: var(--spacer);
   transform: var(--level-one);
 }
 .card__title {
