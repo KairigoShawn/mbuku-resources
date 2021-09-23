@@ -1,0 +1,26 @@
+body {
+  background-image: url(../images/art.jpg);
+  background-size: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-family: Gill Sans MT;
+}
+h1 {
+  font-family: Gill Sans MT;
+  font-size: 70px;
+  text-align: center;
+}
+#art-title {
+  color: #000000;
+}
+.col {
+  color: #000000;
+}
+.container {
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.card:hover{
+  transform: translateY() ;
+}
