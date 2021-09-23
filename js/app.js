@@ -1,7 +1,7 @@
 const books = document.querySelectorAll('.book');
 
 const bookPickup = [
-  'Book is currently available for pickup. Opening hours 0900 - 1700hrs.',
+  'Book is currently available for pick up. Opening hours 0900 - 1700hrs.',
   'Book is currently unavailable! We will notify you when the book is available.',
 ];
 
