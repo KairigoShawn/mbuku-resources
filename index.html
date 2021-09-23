@@ -33,7 +33,7 @@
               <a class="nav-link" href="#us">About us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact-us">contacts</a>
+              <a class="nav-link" href="#cont">contacts</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -292,34 +292,33 @@
         </div>
                
         </div>
-        <div class="cont" id="contact-us">
-          <h1>CONTACT US</h1>
-          <form class="container" id="form">
-            <div class="row align-items-start">
-              <div class="col-6">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Name</label
-                >
-                <input class="form-control" id="name" placeholder="Enter Your Name" type="text" required />
-              </div>
-              <div class="col-6">
-                <label for="exampleFormControlInput1" class="form-label"
-                  >Email address</label
-                >
-                <input class="form-control" id="email" placeholder="name@example.com" type="email" required/>
-              </div>
-              <div class="col-12">
-                <label for="exampleFormControlTextarea1" class="form-label"
-                  >Message</label
-                >
-                <textarea
-                  class="form-control"
-                  id="exampleFormControlTextarea1"
-                  rows="3"
-                ></textarea>
-              </div>
-            </div>
-            <input type="submit" value="Submit" name="submit" id="sub" />
+        <div class="next" id="gall"><h1><span><em>Contact us</em></span></h1></div>
+        <div class="container34" id="cont">
+          <form action="action_page.php">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+              <option value="usa">kenya</option>
+              <option value="usa">Tanzania</option>
+              <option value="usa">Uganda</option>
+              <option value="usa">Rwanda</option>
+              <option value="usa">Euthopia</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
           </form>
         </div>
 
