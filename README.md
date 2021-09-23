@@ -1,4 +1,4 @@
-# Delani Studio Landing Page
+# MBUKU LIBRARY (ONLINE LIBRARY)
 
 ## By Aisha Farah, Alvin Hiuhu, Dickson Njuguna, Ernest Cheriuyot and Kairigo Shawn
 
