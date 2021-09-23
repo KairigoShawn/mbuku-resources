@@ -326,3 +326,21 @@ span{
   margin:10px 0 0;
   padding: 0;
 }
+.gin{
+  display: none;
+  align-items: center;
+  text-align: center;
+}
+.menu ul :hover .gin{
+  display: block;
+  position:absolute;
+  background-color: orange;
+  margin-top: 20px;
+  margin-left: -15px;
+
+}
+.menu ul :hover .gin ul{
+  display: block;
+  margin: 10px;
+
+}
