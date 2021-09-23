@@ -1,6 +1,5 @@
 body{
-    background-image: url(../images/tech3.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #d3d3d3;
+    font-size: 20px;
     text-align: center;
 }
