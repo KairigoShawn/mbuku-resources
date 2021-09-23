@@ -253,51 +253,76 @@ span{
   
 }
 /* gallarey*/
-
-.maindiv{
-  background-color: black;
-
-  background-image: url(/images/1.jpeg);
-  background-image: url(/images/2.jpeg);
-  background-image: url(/images/3.jpeg);
-  background-image: url(/images/4.jpeg);
-  background-image: url(/images/5.jpeg);
-  background-image: url(/images/6.jpeg);
-  background-image: url(/images/7.jpeg);
-  background-image: url(/images/8.jpeg);
-  background-image: url(/images/9.jpeg);
-  background-image: url(/images/10.jpeg);
-  background-image: url(/images/11.jpeg);
-  background-image: url(/images/12.jpeg);
-  background-image: url(/images/13.jpeg);
-  background-image: url(/images/14.jpeg);
-  background-size: 100% 100%;
-  position: absolute;
-  transform: translate(-50% -50%);
-  animation: slider 50s infinite linear;
-  box-shadow: 1px 2px 10px 5px white;
-}
-@keyframes slider{
-  0%{ background-image: url(/images/1.jpeg);}
-  10%{ background-image: url(/images/2.jpeg);}
-  20%{ background-image: url(/images/3.jpeg);}
-  30%{ background-image: url(/images/4.jpeg);}
-  40%{ background-image: url(/images/5.jpeg);}
-  50%{ background-image: url(/images/6.jpeg);}
-  60%{ background-image: url(/images/7.jpeg);}
-  70%{ background-image: url(/images/8.jpeg);}
-  80%{ background-image: url(/images/9.jpeg);}
-  90%{ background-image: url(/images/10.jpeg);}
-  100%{ background-image: url(/images/11.jpeg);}
-  110%{ background-image: url(/images/12.jpeg);}
-  120%{ background-image: url(/images/13.jpeg);}
-  130%{ background-image: url(/images/14.jpeg);}
-  140%{ background-image: url(/images/15.jpeg);}
-}
-.mbuku{
-  margin: 100px;
+.most{
+  margin: 10px;
+  padding: 30px;
   text-align: center;
-  background-color: #fff;
-  font-size: large;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  font-size: larger;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background:black;
+}
+.container3 {
+  padding: 0;
+  width: 1280px;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.container3 .box{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: #ff0;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+    
+}
+.container3 .box .imgBox{
+  position: relative;
+  overflow: hidden;
+}
+.container3 .box .imgBox img{
+   max-width: 100%;
+   transition-duration: 2s;
+}
+.container3 .box:hover .imgBox img{
+  transform: scale(1.2);
+}
+.pic1{
+  height: 300px;
+  width: 100%;
+}
+.container3 .box .details{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: black;
+  transform: scaleY(0);
+  transition-duration: .5s;
+}
+.container3 .box:hover .details{
+  transform: scaleY(1);
+}
+.container3 .box .details .content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+
+}
+.container3 .box .details .content h2{
+   margin:0;
+   padding: 0;
+   font-size: 20px;
+   color:orange;
+}
+.container3 .box .details .content p{
+  margin:10px 0 0;
+  padding: 0;
 }
