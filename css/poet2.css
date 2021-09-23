@@ -1,0 +1,7 @@
+body{
+    background-image: url(../images/panther.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: visible;
+    text-align: center;
+}
