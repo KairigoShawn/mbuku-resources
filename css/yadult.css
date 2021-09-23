@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   box-sizing: border-box;
 }
@@ -41,6 +41,19 @@ a {
   color: black;
   font-size: 18px;
   cursor: pointer;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav > div {
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
 }
 
 .home {
