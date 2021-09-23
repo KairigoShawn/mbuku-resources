@@ -1,7 +1,6 @@
 body{
-    background-image: url(../images/death1.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color: #d3d3d3;
     text-align: center;
-    color: #ffffff;
+    font-size: 20px;
+    
 }
