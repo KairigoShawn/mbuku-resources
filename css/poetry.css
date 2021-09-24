@@ -4,7 +4,8 @@ h1{
     
 }
 body{
-    background-color: #d3d3d3;
+    background-image: url(../images/quill.gif);
+    background-size: 100%;
     text-align: center;
 }
 p{
